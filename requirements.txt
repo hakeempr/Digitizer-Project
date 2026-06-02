@@ -1,0 +1,27 @@
+# ─── Django Core ─────────────────────────────────────────────
+Django>=4.2,<5.0
+djangorestframework>=3.15
+django-cors-headers>=4.3
+python-dotenv>=1.0
+
+# ─── Auth ─────────────────────────────────────────────────────
+# DRF Token auth is included with djangorestframework
+
+# ─── Image Processing ─────────────────────────────────────────
+Pillow>=10.0
+opencv-python-headless>=4.8   # headless — no GUI deps required
+
+# ─── OCR API client ───────────────────────────────────────────
+requests>=2.31
+
+# ─── PDF Generation ───────────────────────────────────────────
+reportlab>=4.0
+
+# ─── Async Task Queue ─────────────────────────────────────────
+celery>=5.3
+redis>=5.0
+
+# ─── Production extras (uncomment when deploying) ─────────────
+# gunicorn>=21.0
+# psycopg2-binary>=2.9    # PostgreSQL driver
+# whitenoise>=6.6         # Static file serving
