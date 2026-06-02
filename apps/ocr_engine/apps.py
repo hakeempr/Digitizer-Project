@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+
+
+class OcrEngineConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "apps.ocr_engine"
+    label = "ocr_engine"
+    verbose_name = "OCR Engine"
